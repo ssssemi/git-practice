@@ -8,3 +8,15 @@ $ git status # 변경점이 있는지 상태를 확인
 $ git add (파일)
 $ git add .
 $ git add --all 
+
+$ git commit -m "등록할 메세지" # 변경점을 커밋하여 버전업한다. 
+
+$ git log # 현재까지의 버전을 확인한다. 
+
+(처음 push할 때) (git clone으로 디렉토리를 가져왔을 때는 제외)
+$ git push -u origin master
+$ git push -u (별명) master
+
+이후로는
+$ git push
+만 해줘도 올라간다. 
