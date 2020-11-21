@@ -1,0 +1,10 @@
+$ git init # 이 폴더는 git의 명령어가 적용되는 폴더이다. 
+
+$ git remote add origin https://github.com/ssssemi/git-practice.git
+$ git remote add (별명) (주소)
+
+$ git status # 변경점이 있는지 상태를 확인
+
+$ git add (파일)
+$ git add .
+$ git add --all 
